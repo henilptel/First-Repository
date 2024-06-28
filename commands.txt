@@ -1,0 +1,3 @@
+git init - Initialize git repository
+git status - Shows the status of the files in the repository
+git add . - Stages all the files
