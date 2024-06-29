@@ -25,3 +25,7 @@
     To push into a url
     origin is the url
     master is the branch
+12. git branch `name`
+    creates a branch
+13. git checkout `name of branch`
+    changes the HEAD to that branch
