@@ -15,11 +15,12 @@
 8. git stash clear 
     Clears stash
 9. git remote add origin `url`
-    Adds url to the repo
-    Remote means you are working with urls 
+    Adds url to the folder
+    Remote is associated with urls 
     origin is the name of the url (It can be anything)
     Convention : all repos that are in personal account are named origin
-10. git remote -v 
+		Other's repos that you forked are named upstream
+10. git remote -v
     shows the attached urls
 11. git push origin master
     To push into a url
@@ -31,3 +32,5 @@
     changes the HEAD to that branch
 14. git merge `name of branch`
     merges the branch with master
+15. git clone `url`
+    To clone or download a repo
