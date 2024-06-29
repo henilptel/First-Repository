@@ -1,8 +1,27 @@
-git init - Initialize git repository
-git status - Shows the status of the files in the repository
-git add . - Stages all the files
-git commit -m "message" - commits all staged files
-git reset `hashcode` - Restores to that version
-git stash - Moves the changes to stash
-git stash pop - Pops the changes from stash
-git stash clear - Clears stash
+1. git init 
+    Initialize git repository
+2. git status
+    Shows the status of the files in the repository
+3. git add . 
+    Stages all the files
+4. git commit -m "message" 
+    commits all staged files
+5. git reset `hashcode` 
+    Restores to that version
+6. git stash 
+    Moves the changes to stash
+7. git stash pop 
+    Pops the changes from stash
+8. git stash clear 
+    Clears stash
+9. git remote add origin `url`
+    Adds url to the repo
+    Remote means you are working with urls 
+    origin is the name of the url (It can be anything)
+    Convention : all repos that are in personal account are named origin
+10. git remote -v 
+    shows the attached urls
+11. git push origin master
+    To push into a url
+    origin is the url
+    master is the branch
