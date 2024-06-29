@@ -41,3 +41,6 @@
     restores to the original repo's main branch
 18. git pull upstream main 
     does the same as fetch+reset
+19. git rebase -i `hashcode`
+    to merge commits
+    -i is for interactive session
