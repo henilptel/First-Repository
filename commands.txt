@@ -34,3 +34,10 @@
     merges the branch with master
 15. git clone `url`
     To clone or download a repo
+16. git fetch --all --prone
+    Fetches the commits and changes from all the branches
+    prone means that the deleted commits will also be fetched
+17. git reset --hard upstream/main
+    restores to the original repo's main branch
+18. git pull upstream main 
+    does the same as fetch+reset
