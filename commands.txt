@@ -29,3 +29,5 @@
     creates a branch
 13. git checkout `name of branch`
     changes the HEAD to that branch
+14. git merge `name of branch`
+    merges the branch with master
